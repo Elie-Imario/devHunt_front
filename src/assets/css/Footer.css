@@ -1,0 +1,48 @@
+.footer-parts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.made-with, .part-social-media{
+    display: flex;
+    align-items: flex-end;
+}
+
+.made-with p, .part-social-media span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #777777;
+    line-height: 2.4rem;
+}
+
+.made-with p span{
+    margin: 0 10px;
+}
+
+.part-social-media{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.social-media-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 15px;
+}
+
+.ico-social-media{
+    color: var(--text-1);
+}
+
+

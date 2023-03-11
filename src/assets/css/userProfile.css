@@ -1,0 +1,137 @@
+.userProfil-bloc,
+.security-bloc,
+.danger-bloc{
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+.userProfil-content,
+.security-content,
+.danger-content{
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    width: 95%;
+    margin: 2% auto;
+}
+
+.heading-content{
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem;
+}
+.heading-content.bg-grey{
+    background: #EDEDED;
+}
+.content-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+}
+
+.content-body{
+    padding: 1.5rem;
+}
+
+.info-basic-form{
+    display: flex;
+    gap: 25px;
+}
+
+.field-col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ico{
+    border-radius: 50%;
+    padding: 0.5rem;
+    background: var(--color-link);
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    cursor: pointer;
+}
+.bottoun{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 0.6rem 1.9rem;
+}
+ 
+.bottoun-info{
+    border: 1px solid #DDE2E8;
+    border-radius: 8px;
+    color: #00997E;
+}
+
+.bottoun-danger{
+    background: #CB0A0A;
+    border-radius: 8px;
+}
+
+.bottoun-add{
+    background: #5497FF;
+    border-radius: 4px;
+}
+
+.bottoun-group{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.user-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-pic{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+.user-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.secondary{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+}
+
+.description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--text-4);
+    line-height: 20px;
+}
+
+.label-agree-term{
+    text-transform: none!important;
+    font-size: 12px!important;
+    line-height: 15px;
+    color: var(--text-4);
+}

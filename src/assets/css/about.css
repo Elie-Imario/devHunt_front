@@ -1,0 +1,47 @@
+.title-lead p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: var(--text-1);
+}
+
+.about-cards .about-cards-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.about-cards-box .about-card{
+    width: 360px;
+    height: 242px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 0.8px solid #DFE0EB;
+    border-radius: 4px;
+    padding: 3rem 1.5rem;
+}
+
+.about-card-header .a-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #5D9DFF;
+
+}
+
+.about-card-body p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text-3);
+    margin-top: 10px;
+}

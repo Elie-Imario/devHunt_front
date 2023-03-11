@@ -1,0 +1,38 @@
+
+.filtreAvance-bloc{
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
+}
+.heading-content{
+}
+
+.content-body{
+    padding: 0.5rem 1.5rem;
+}
+
+.field-row{
+    display: flex;
+    gap: 25px;
+}
+
+
+
+/*Customize*/
+.accordion-list .accordion-item {
+    margin-top: 0px!important;
+    background-color: transparent!important;
+    border-radius: 0!important;
+    border: none!important;
+}
+
+.accordion-title{
+    text-decoration: none;
+    color: var(--dark-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+}

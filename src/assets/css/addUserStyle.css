@@ -1,0 +1,67 @@
+.form-container{
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
+}
+.heading-content{
+    padding: 1rem;
+}
+.sub-title a{
+    text-decoration: none;
+    color: #252733;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+}
+
+.content-body{
+    padding: 0.5rem 1.5rem;
+}
+
+.field-row{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.bottoun{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 0.6rem 2.7rem;
+}
+  
+.bottoun-add{
+    background: #5497FF;
+    border-radius: 4px;
+}
+
+.bottoun-group{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+/*Customize*/
+.accordion-list .accordion-item {
+    margin-top: 0px!important;
+    background-color: transparent!important;
+    border-radius: 0!important;
+    border: none!important;
+}
+
+.accordion-title{
+    text-decoration: none;
+    color: var(--dark-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+}

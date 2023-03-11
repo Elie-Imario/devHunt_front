@@ -1,0 +1,82 @@
+.title-lead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-lead p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 4.5rem;
+    color: var(--text-1);
+    width: 100%;
+    text-align: center;
+}
+
+.features-body .features-cards-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.features-cards-box .features-card{
+    width: 350px;
+    text-align: start;
+}
+
+
+.features-card-header .features-ico{
+    margin-bottom: 1.5rem;
+}
+
+.features-ico .ico-circle{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ico-circle{
+    height: 75px;
+    width: 75px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+}
+
+.ico-circle.one{
+    color: #FF75B7;
+    background: #FFE7F2;
+    box-shadow: 0px 18px 40px -12px rgba(255, 117, 183, 0.35);
+}
+.ico-circle.two{
+    color: #5E9DFF;
+    background: #E6F0FF;
+    box-shadow: 0px 18px 40px -12px rgba(93, 157, 255, 0.35);
+}
+.ico-circle.three{
+    color: #2DFF9C;
+    background: #E2FFF2;
+    box-shadow: 0px 18px 40px -12px rgba(8, 254, 144, 0.35);
+}
+
+
+.features-card-header .f-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: var(--text-1);
+}
+
+.features-card-body p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--text-3);
+    margin-top: 10px;
+}

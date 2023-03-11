@@ -1,0 +1,129 @@
+.bloc-home-page,
+.bloc-sharing-page{
+    position: relative;
+}
+.bloc-home-page .overlay,
+.bloc-sharing-page .overlay{
+    display: none;
+}
+.bloc-home-page .overlay.appear,
+.bloc-sharing-page .overlay.appear{
+    display: block;
+}
+
+.offcanvas-section{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 450px;
+    background: white;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.5rem 0;
+    margin-right: -100%;
+    transition: margin-right 0.25s ease;
+}
+
+.offcanvas-section.show{
+    margin-right: 0;
+}
+
+.question-item,
+.response-content,
+.reply-section,
+.sharing-item{
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
+    position: relative;
+}
+.question-item,
+.response-content,
+.sharing-item{
+    padding: 1.5rem;
+}
+
+.reply-section{
+    padding: 0.5rem 1.5rem;
+}
+
+.response-to, .rating-to{
+    background: #D9D9D9;
+    position: relative;
+}
+
+.btn{
+    background: #fff;
+    border: 0.2px solid #848484;
+    padding: .3rem 1rem;
+    margin: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #848484;
+}
+
+.consult-item{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.consult-item span,
+.bottoun-send {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;    
+    color: #5497FF;
+}
+
+.bottoun{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 0.7rem 2.9rem;
+}
+
+.field-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    width: 100%!important;
+}
+
+.top-header-container{
+    width: 60%;
+}
+
+.bottoun-add{
+    background: #5497FF;
+    border-radius: 4px;
+}
+
+.top-header-container .field-row .wrap-input100,
+.reply-container .field-row .wrap-input100{
+    margin-bottom: 0px!important;
+}
+
+.question-item .dropdown .dropdown-toggle,
+.sharing-item .dropdown .dropdown-toggle{
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.searcForm-container{
+    width: 100%;
+}

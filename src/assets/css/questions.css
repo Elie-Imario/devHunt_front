@@ -1,0 +1,31 @@
+.header-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    gap: 10px;
+}
+
+.user-pic{
+    width: 63px;
+    height: 63px;
+}
+
+.username{
+    font-size: 14px;
+    font-weight: 600;
+}
+.datepost{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #878787;
+}
+.post-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}

@@ -1,0 +1,114 @@
+.global-sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 255px;
+    height: 100%;
+    z-index: 5;
+    background: #FFFFFF;
+}
+
+.navbar-brand{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding: 1rem 0;
+}
+.sidebar{
+    position: relative;
+    height: 85%;
+}
+
+.nav-sidebar .nav-item{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.nav-sidebar .nav-item.current{
+}
+
+.nav-item ul{
+    list-style: none;
+    padding: 0;
+}
+.nav-item a,
+.nav-item-list a{
+    text-decoration: none;
+    color: var(--text-4);
+    display: block;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    font-weight: 400;
+}
+.nav-item a{
+    font-size: 16px;
+}
+
+
+.collapse {
+    border-left: 2px solid #DDE2E8;
+}
+
+.nav-item-list a{
+    font-size: 14px;
+}
+
+.sidebar .bottom-section{
+    position: absolute;
+    height: auto;
+    bottom: 0;
+}
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: .4rem 1.7rem;
+    gap: 10px;
+    border-radius: 6px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    width: 190px;
+}
+
+.btn-logout{
+    background: #E5F0FF;
+    color: #424242;
+}
+
+.btn-profile{
+    background: #5497FF;
+    color: #FFFFFF;
+}
+
+.profile-pic{
+    width: 35px;
+    height: 35px;
+}
+.profile-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.accordion-title .fa{
+    transform: rotate(0deg);
+    transition: all .5s ease;
+}
+.accordion-title:not(.collapsed) .fa{
+    transform: rotate(90deg);
+    transition: all .5s ease;
+}
+.fa{
+    float: right;
+}
+
